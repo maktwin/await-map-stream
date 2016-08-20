@@ -12,7 +12,7 @@ let doubler = awaitStream(data => Promise.resolve(data * 2));
 stream.pipe(doubler);
 
 let mapper = awaitStream(async data => await mongodb.findOne(data.id));
-request(url).pipe(JSONStream.parse('results.*')).pipe(mapper)
+request(url).pipe(JSONStream.parse('results.*')).pipe(mapper);
 ```
 
 # INSTALL
