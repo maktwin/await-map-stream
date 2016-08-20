@@ -1,0 +1,27 @@
+{
+  "name": "await-map-stream",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=5.2.0"
+  },
+  "description": "Lightweight stream mapper",
+  "homepage": "https://github.com/maktwin/await-map-stream",
+  "author": "maktwin <m.panchoha@gmail.com> (https://github.com/maktwin)",
+  "license": "Artistic License 2.0",
+  "main": "./lib/await-stream",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maktwin/await-map-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maktwin/await-map-stream/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "stream-spec": "^0.3.6"
+  }
+}
